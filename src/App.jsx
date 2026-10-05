@@ -1,14 +1,14 @@
-import React from 'react'
-import Card from './component/Card'
+import React from 'react' 
+import StateHandling from './component/statehandling.jsx'
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Card/>
-      <br />
-      <Card/>
-    </div>
+  
+      <StateHandling/>
+    
   )
 }
 
-export default App
+
+export default App;
+
